@@ -16,8 +16,6 @@ public:
             mp[v[i]]++;
         }
         int t,maxi=INT_MIN;
-        
-        for(auto i:mp)cout<<i.first<<" "<<i.second<<endl;
         for(auto i:mp)
         {
            maxi=max(maxi,i.second);
